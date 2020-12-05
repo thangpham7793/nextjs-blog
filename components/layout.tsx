@@ -16,10 +16,7 @@ export default function Layout({ children, home }: LayoutProps) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="my personal next.js blog" />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -38,12 +35,7 @@ export default function Layout({ children, home }: LayoutProps) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Link href="/author/me">
-                <a>About Me</a>
-              </Link>
-            </small>
+            <small className={utilStyles.lightText}>Just Another Dev</small>
           </>
         ) : (
           <>

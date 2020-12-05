@@ -8,15 +8,14 @@ import { GetStaticProps } from "next"
 
 export default function Home({ postsData }) {
   return (
-    <Layout>
+    <Layout home={true}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Something</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          <a href="https://github.com/thangpham7793">Git</a>{" "}
+          <a href="https://www.linkedin.com/in/thangpham7793/">Linkedin</a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
