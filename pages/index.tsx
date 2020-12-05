@@ -14,8 +14,12 @@ export default function Home({ postsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          <a href="https://github.com/thangpham7793">Git</a>{" "}
-          <a href="https://www.linkedin.com/in/thangpham7793/">Linkedin</a>
+          <a href="https://github.com/thangpham7793" target="_blank">
+            Git
+          </a>{" "}
+          <a href="https://www.linkedin.com/in/thangpham7793/" target="_blank">
+            Linkedin
+          </a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
