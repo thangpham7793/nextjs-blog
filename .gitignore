@@ -28,6 +28,11 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+envs
+envs/*
 
 # personal note
 notes.md
+
+# mounted db volume
+data/database
